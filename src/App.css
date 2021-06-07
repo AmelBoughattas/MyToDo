@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Love+Ya+Like+A+Sister&family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Indie+Flower&family=Love+Ya+Like+A+Sister&family=Nanum+Pen+Script&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+body {
+ /*  background-image: url('https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80');
+  */ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
+  line-height: 1.6;
+}
+.App {
+  text-align: center;
+}
+
+.container{
+  background-color: black;
+}
+
+.done {
+  text-decoration: line-through !important;
+}
+
+.undone {
+  text-decoration: none;
+}
+
+
+.add-task-input,
+.edit-task-input {
+  outline: none;
+}
+
+.add-task-input:focus,
+.edit-task-input:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.view-opt-label,
+.date-label {
+  font-size: 0.8rem;
+}
+
+.edit-task-input {
+  font-size: 1.7rem !important;
+}
+
+.task-actions {
+  visibility: hidden !important;
+}
+
+.task-item:hover .task-actions {
+  visibility: visible !important;
+}
+
+.task-item.editing .task-actions .edit-icon {
+  display: none !important;
+}
+.icon {
+  font-size: 2rem !important;
+}
+
+/*  */

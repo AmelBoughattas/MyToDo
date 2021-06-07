@@ -1,0 +1,122 @@
+.btnADD
+{
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+
+}
+.btnChech:hover{
+    color: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+ 
+}
+/* bt save et cancel modal */
+.task-button{
+  margin-top:30px;
+float: right;
+margin-right: 20px;
+}
+
+.btnADD:hover {
+background: #03e9f4;
+border-radius: 5px;
+box-shadow: 0 0 5px  #03e9f4,
+            0 0 15px #ffa500,
+            0 0 50px #03e9f4,
+            0 0 15px #ffa500,
+}
+/* style title */
+.title1 i {
+    font-size: 25px;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+    font-family: "Gloria Hallelujah", cursive;
+    text-align: center;
+    animation: blink 5s infinite;
+    -webkit-animation: blink 2s infinite;
+  }
+.title {
+    font-size: 25px;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+    font-family: "Gloria Hallelujah", cursive;
+    text-align: center;
+    animation: blink 5s infinite;
+    -webkit-animation: blink 2s infinite;
+  }
+ 
+    
+  @-webkit-keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #111;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+    }
+  }
+  
+  @keyframes blink {
+    20%,
+    24%,
+    55% {
+      color: #111;
+      text-shadow: none;
+    }
+  
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+    }
+  }
+  
+  /* style SHOW all, done & active */
+
+.show{
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    box-shadow:0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500;
+     margin-top:20px
+}
+
+.btnSve{
+    margin-left: 20px;
+}
+
+  /* style Modal */
+ .input_Change{
+   border-radius: 10px;
+   width:80%;
+   padding: 10px;
+}  
+
+  .my-modal{
+    box-shadow: 15px 15px 25px rgb(0 0 0);
+    border-radius:5%;
+    
+  }
+
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+
+ 
